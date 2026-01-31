@@ -1,0 +1,7 @@
+{
+  "dev": {
+    "driver": "pg",
+    "connectionString": "${DATABASE_URL}",
+    "migrationsDir": "db/migrations"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-order-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js",
+     "migrate": "node-pg-migrate",
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepikasingidi186/ecommerce-order-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepikasingidi186/ecommerce-order-api/issues"
+  },
+  "homepage": "https://github.com/deepikasingidi186/ecommerce-order-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
